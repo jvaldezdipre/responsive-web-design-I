@@ -395,13 +395,24 @@ address p {
 /* Phones */
 @media (max-width: 500px) {
    .nav-tags {
+      margin: 0;
       flex-direction: column;
    }
    .nav-tags a {
-      margin: 15px 0px;
+      text-align: center;
+      width: 100%;
+      border-bottom: 1px solid black;
+      height: 40px;
+      padding-top: 10px;
+   }
+
+   .nav-logo a {
+      padding-bottom: 10px;
    }
    .nav-logo {
-      margin: 0px;
+      width: 100%;
+      border-bottom: 1px solid black;
+      margin: 0;
    }
    .title h1 {
       font-size: 60px;
