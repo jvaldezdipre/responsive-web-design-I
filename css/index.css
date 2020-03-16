@@ -272,8 +272,11 @@ address p {
 /* ---- Grid Layout ---- */
 
 .container-grid {
-   height: 75vh;
    width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-content: space-between;
 }
 
 .container-grid button {
@@ -287,7 +290,16 @@ address p {
    font-size: 12px;
 }
 
-.grid-one div {
+.container-grid div {
+   height: 25.5vh;
+   width: 45.5%;
+   background-color: lightgray;
+   border: 1px solid black;
+   padding: 30px;
+   margin: 20px 0px;
+}
+
+/* .grid-one div {
    height: 20vh;
    width: 45.5%;
    background-color: lightgray;
@@ -330,7 +342,7 @@ address p {
    display: flex;
    justify-content: space-between;
    align-items: center;
-}
+} */
 
 /* ------- */
 
@@ -390,6 +402,7 @@ address p {
    .image-title {
       display: none;
    }
+   /* Services */
 }
 
 /* Phones */
