@@ -357,7 +357,6 @@ address p {
    .image-title {
       display: none;
    }
-   /* Services */
 }
 
 /* Phones */
@@ -416,6 +415,10 @@ address p {
       flex-direction: column;
    }
    .facts {
+      width: 100%;
+   }
+
+   .services-info-img {
       width: 100%;
    }
 }
